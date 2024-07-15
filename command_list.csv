@@ -1,0 +1,15 @@
+    1  c && rm ~/.bash_history~
+    2  -c && rm ~/.bash_history
+    3  c && rm ~/.bash_history
+    4  && rm ~/.bash_history
+    5  rm ~/.bash_history
+    6   git clone https://github.com/yuriy-obtalion/HW_10
+    7  cd HW_10
+    8   touch text_ignore.txt
+    9   nano .gitignore
+   10  git status
+   11  cd HW_10
+   12  touch text_ignore.txt
+   13  nano .gitignore
+   14  git merge develop
+   15   history > command_list.csv
